@@ -1,5 +1,5 @@
 # Simple calculator
-This is a simple calculator that is made using Tkinter and can do airthmetic operations like addition, subtraction, multiplication and division. 
+This is a simple calculator that is made using Tkinter and can do basic airthmetic operations like addition, subtraction, multiplication and division. 
 It can perform operations between only two numbers at a time.
 
 

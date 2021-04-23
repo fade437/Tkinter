@@ -18,47 +18,47 @@ def button_add():
     first_number = e.get()
     global f_num
     f_num = int(first_number)
-    global math
-    math = "addition"
+    global calc
+    calc = "addition"
     e.delete(0, END)
 
 def button_equal():
     second_number = e.get()
     e.delete(0, END)
 
-    if math == "addition":
+    if calc == "addition":
         e.insert(0, f_num + int(second_number))
 
-    if math == "subtraction":
+    if calc == "subtraction":
         e.insert(0, f_num - int(second_number))
 
-    if math == "multiplication":
+    if calc == "multiplication":
         e.insert(0, f_num * int(second_number))
 
-    if math == "division":
+    if calc == "division":
         e.insert(0, f_num / int(second_number))
 
 def button_subtract():
     first_number = e.get()
     global f_num
-    global math
-    math = "subtraction"
+    global calc
+    calc = "subtraction"
     f_num = int(first_number)
     e.delete(0, END)
 
 def button_multiply():
     first_number = e.get()
     global f_num
-    global math
-    math = "multiplication"
+    global calc
+    calc = "multiplication"
     f_num = int(first_number)
     e.delete(0, END)
 
 def button_divide():
     first_number = e.get()
     global f_num
-    global math
-    math = "division"
+    global calc
+    calc = "division"
     f_num = int(first_number)
     e.delete(0, END)
 
